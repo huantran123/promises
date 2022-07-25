@@ -1,0 +1,27 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "description": "Conjure your way through an understanding of Promises",
+  "author": "Hack Reactor <curriculum.team@hackreactor.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": "14.13.1",
+    "npm": "6.14.8"
+  },
+  "scripts": {
+    "test": "mocha test/index.js --bail",
+    "lint": "eslint ./"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "chai": "^3.2.0",
+    "clarifai": "^2.4.0",
+    "colors": "^1.1.2",
+    "eslint-config-hackreactor": "https://github.com/reactorcore/eslint-config-hackreactor",
+    "mocha": "^8.2.1",
+    "needle": "^2.5.2",
+    "nock": "^13.0.5",
+    "request": "^2.61.0"
+  }
+}
