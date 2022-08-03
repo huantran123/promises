@@ -10,7 +10,7 @@
     "npm": "6.14.8"
   },
   "scripts": {
-    "test": "mocha test/index.js --bail",
+    "test": "mocha test/index.js --bail --watch",
     "lint": "eslint ./"
   },
   "dependencies": {
